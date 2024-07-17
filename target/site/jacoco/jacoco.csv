@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+springboot-graphql-demo,com.template.demo.exception,AbstractGraphqlException,33,0,0,0,10,0,4,0,4,0
+springboot-graphql-demo,com.template.demo.exception,UserException,5,0,0,0,2,0,1,0,1,0
+springboot-graphql-demo,com.template.demo.service,GraphQLService,22,0,0,0,5,0,3,0,3,0
+springboot-graphql-demo,com.template.demo.controller,UserController,25,0,0,0,4,0,3,0,3,0
+springboot-graphql-demo,com.template.demo.controller,DefaultController,0,11,0,0,0,2,0,2,0,2
+springboot-graphql-demo,com.template.demo,Application,8,0,0,0,3,0,2,0,2,0
+springboot-graphql-demo,com.template.demo.service.datafetcher,AllUsersFetchers,7,0,0,0,2,0,2,0,2,0
+springboot-graphql-demo,com.template.demo.service.datafetcher,UserFetcher,15,0,0,0,3,0,2,0,2,0
+springboot-graphql-demo,com.template.demo.service.impl,UserServiceImpl,57,0,2,0,13,0,7,0,6,0
