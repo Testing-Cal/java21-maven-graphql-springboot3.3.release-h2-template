@@ -43,11 +43,11 @@
 </properties>
 <dependencies>
 
-    <dependency>
+<!--    <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
-        <version>20231013</version>
-    </dependency>
+        <version>20240303</version>
+    </dependency>-->
 
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -76,11 +76,14 @@
         <artifactId>lombok</artifactId>
         <optional>true</optional>
     </dependency>
-    <dependency>
+
+<!--    <dependency>
         <groupId>com.google.code.gson</groupId>
         <artifactId>gson</artifactId>
-        <version>${gson.version}</version><!--$NO-MVN-MAN-VER$ -->
+        <version>${gson.version}</version>&lt;!&ndash;$NO-MVN-MAN-VER$ &ndash;&gt;
     </dependency>
+    -->
+
     <!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-spring-boot-starter-test -->
     <!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-spring-boot-starter -->
     <dependency>
